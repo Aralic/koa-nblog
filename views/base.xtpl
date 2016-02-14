@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="charset" content="utf-8" />
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/static/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/common/base.css">
+    {{{block ("head")}}}
+</head>
+<body>
+{{{block ("body_start")}}}
+{{ include ("./header.xtpl") }}
+{{{block ("body")}}}
+<script src="/static/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+{{{block ("body_end")}}}
+</body>
+</html>

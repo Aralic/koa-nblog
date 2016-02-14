@@ -1,0 +1,16 @@
+{{extend ("./base")}}
+{{#block ("head")}}
+{{/block}}
+
+{{#block ("body")}}
+<section class="center-block" style="width: 60%">
+    <li>
+        <h4><a href="/article/{{article._id}}">{{article.title}}</a></h4>
+        <p>{{article.content}}</p>
+        <blockquote class="blockquote-reverse">
+            <span><a href="/author/{{article.author}}">{{article.author}}</a>  发布于 </span>
+            <em>{{formateTime(article.updatadate)}}</em>
+        </blockquote>
+    </li>
+</section>
+{{/block}}

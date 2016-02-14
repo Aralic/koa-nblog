@@ -1,0 +1,29 @@
+{{extend ("./base")}}
+{{#block ("head")}}
+{{/block}}
+
+{{#block ("body")}}
+    <section class="center-block" style="width: 60%">
+        <h3>最新博客</h3>
+        {{#each(articles)}}
+            <li>
+                <h4><a href="/article/{{_id}}">{{title}}</a></h4>
+                <p>{{content}}</p>
+                <blockquote class="blockquote-reverse">
+                    <span><a href="/author/{{author}}">{{author}}</a>  发布于 </span>
+                    <em>{{formateTime(updatadate)}}</em>
+                </blockquote>
+            </li>
+        {{/each}}
+        <nav style="text-align: center" id="pager">
+
+        </nav>
+    </section>
+    <script>
+        var pCount = {{pCount}};
+    </script>
+{{/block}}
+{{#block ("body_end")}}
+    <script src="/static/common/pager.js"></script>
+    <script src="/static/index/index.js"></script>
+{{/block}}
