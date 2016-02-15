@@ -14,5 +14,15 @@
         </blockquote>
     </li>
     {{/each}}
+    <nav style="text-align: center" id="pager">
+
+    </nav>
 </section>
+<script>
+    var pCount = {{pCount}};
+</script>
+{{/block}}
+{{#block ("body_end")}}
+    <script src="/static/common/pager.js"></script>
+    <script src="/static/author/author.js"></script>
 {{/block}}

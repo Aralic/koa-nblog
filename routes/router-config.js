@@ -3,18 +3,18 @@ var ucenter = require('./ucenter');
 var api = require('./api');
 
 // 首页
-router.get('/page/:id', require('./index'));
 router.get('/', require('./index'));
+router.get('/index', require('./index'));
 
 // 用户中心
 router.get('/users', require('./users'));
 // 注册登录页
 router.get('/register', require('./register'));
 // 用户个人中心
-router.get('/myblog', ucenter.myblog);
-router.get('/setting', ucenter.setting);
-router.get('/addblog', ucenter.addblog);
-router.get('/drafts', ucenter.drafts);
+router.get('/ucenter/myblog', ucenter.myblog);
+router.get('/ucenter/setting', ucenter.setting);
+router.get('/ucenter/addblog', ucenter.addblog);
+router.get('/ucenter/drafts', ucenter.drafts);
 
 
 // 博客详情页

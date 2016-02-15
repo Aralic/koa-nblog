@@ -4,7 +4,7 @@ var pager = new Pager({
     pContainer: '#pager',
     conTotalCount: pCount,
     onIndexChange: function (curIndex) {
-        location.href = '/?page=' + curIndex;
+        location.href = '/ucenter/myblog?page=' + curIndex;
     },
     conPerPage: 5,
     pMaxCount: 11,

@@ -3,7 +3,7 @@ $('#register').click(function() {
   var _user = {
     username: $('#username').val(),
     password: $('#password').val()
-  }
+  };
 
   if (_user.username && _user.password) {
     $.ajax({
@@ -29,7 +29,6 @@ $('#register').click(function() {
 });
 
 // 登录
-
 $('#login').click(function () {
     var _user = {
         username: $('#username').val(),
@@ -44,7 +43,10 @@ $('#login').click(function () {
           })
           .done(function(res) {
             if (!res.errNo) {
-              window.location.href = '/';
+                var result = location.search(/redirect=([^&]*)(&|$)/);
+                var redirect = '/';
+                //result && result[1] && redirect = result[1];
+                //window.location.href = redirect;
             } else {
               alert('登录失败!');
             }

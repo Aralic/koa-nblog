@@ -2,8 +2,8 @@
 var blogService = require('../service/blog');
 
 module.exports = function *index() {
-    var pageId = this.params.id || 1;
-    var articles = yield blogService.findBlog(pageId);
+    var pageId = this.request.query.page || 1;
+    var articles = yield blogService.findBlog({pageId: pageId});
     var pCount = yield blogService.findAllCount();
     yield this.render('index', {
         title: '博客首页',

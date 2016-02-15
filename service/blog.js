@@ -10,10 +10,14 @@ exports.insertBlog = function *(BlogToInsert) {
  * @param pageId 分页ID 从1开始
  * @returns {*}
  */
-exports.findBlog = function *(pageId) {
-    pageId = pageId || 1;
-    var count = (pageId-1) * 5;
-    return yield Blog.find({}).sort({'_id':-1}).skip(count).limit(5).exec();
+
+exports.findBlog = function *(params, select) {
+    var pageId = params.pageId || 1;
+    var count = (pageId - 1)*5;
+    var maxPerCount = params.maxPerCount || 5;
+    select = select || {};
+
+    return yield Blog.find(select).sort({'_id':-1}).skip(count).limit(maxPerCount).exec();
 };
 
 /**
@@ -23,18 +27,6 @@ exports.findBlog = function *(pageId) {
  */
 exports.findOneBlog = function *(articleid) {
     return yield Blog.findOne({'_id': articleid}).exec();
-};
-
-/**
- * 根据author读取博客数据
- * @param author
- * @param pageId 分页ID 从1开始
- * @returns {*}
- */
-exports.findAuthorBlog = function *(author, pageId) {
-    pageId = pageId || 1;
-    var count = (pageId-1) * 5;
-    return yield Blog.find({'author': author}).sort({'_id':-1}).skip(count).limit(5).exec();
 };
 
 exports.findAllCount = function *(author) {

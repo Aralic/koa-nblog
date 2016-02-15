@@ -3,27 +3,35 @@
 {{/block}}
 
 {{#block ("body")}}
-    <aside class="aside" style="width: 20%; position:fixed; top: 50px; left: 0;">
-        <div class="list-group">
-            <a href="#" class="list-group-item active">我的博客</a>
-            <a href="#" class="list-group-item">个人资料</a>
-            <a href="#" class="list-group-item">添加博客</a>
-            <a href="#" class="list-group-item">草稿箱</a>
-        </div>
-    </aside>
-    <section class="center-block" style="width: 50%">
-        <div class="form-group">
-            <label for="articleTitle">文章标题</label>
-            <input type="text" class="form-control" id="articleTitle" placeholder="文章标题">
-        </div>
-        <div class="form-group">
-            <label for="password">文章内容</label>
-            <textarea type="text" class="form-control" id="articleContent" placeholder="文章内容" rows="20"></textarea>
-        </div>
-        <button id="postBlog" class="btn btn-primary">发布</button>
-    </section>
-{{/block}}
+<aside class="aside" style="width: 20%; position:fixed; top: 50px; left: 0;">
+    <div class="list-group">
+        <a href="#" class="list-group-item active">我的博客</a>
+        <a href="/ucenter/setting" class="list-group-item">个人资料</a>
+        <a href="/ucenter/addblog" class="list-group-item">添加博客</a>
+        <a href="/ucenter/drafts" class="list-group-item">草稿箱</a>
+    </div>
+</aside>
+<section class="center-block" style="width: 50%">
+    {{#each(articles)}}
+        <li>
+            <h4><a href="/article/{{_id}}">{{title}}</a></h4>
+            <p>{{content}}</p>
+            <blockquote class="blockquote-reverse">
+                <span><a href="">{{author}}</a>  发布于 </span>
+                <em>{{formateTime(updatadate)}}</em>
+            </blockquote>
+        </li>
+    {{/each}}
+    <nav style="text-align: center" id="pager">
 
+    </nav>
+</section>
+
+<script>
+    var pCount = {{pCount}};
+</script>
+{{/block}}
 {{#block ("body_end")}}
-<script src="/static/ucenter/postblog.js"></script>
+<script src="/static/common/pager.js"></script>
+<script src="/static/ucenter/myblog.js"></script>
 {{/block}}
