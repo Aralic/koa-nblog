@@ -1,5 +1,6 @@
 {{extend ("./base")}}
 {{#block ("head")}}
+<link rel="stylesheet" href="/static/ucenter/setting.css">
 {{/block}}
 
 {{#block ("body")}}
@@ -12,9 +13,29 @@
     </div>
 </aside>
 <section class="center-block" style="width: 50%">
-    我的个人设置
+    <div class="form-group">
+        <label for="avatar">头像</label>
+        <input type="file" id="avatarInput" accept="image/*" class="form-control avatar-input" style="display: none;">
+        {{#if (avatar)}}
+            <img src="/static/avator/{{avator}}" alt="avatar">
+            <button class="btn btn-primary avatar-btn" id="updataAvatar">更换</button>
+        {{else}}
+            <button class="btn btn-primary avatar-btn" id="addAvatar" >添加</button>
+        {{/if}}
+    </div>
+    <div class="form-group">
+        <label for="contact">联系邮箱</label>
+        <input type="text" class="form-control" placeholder="联系邮箱" name="contact">
+    </div>
+    <div class="form-group">
+        <label for="contact">github地址</label>
+        <input type="text" class="form-control" placeholder="github地址" name="contact">
+    </div>
+    <button id="save" class="btn btn-primary">保存</button>
 </section>
 {{/block}}
 
 {{#block ("body_end")}}
+<script src="/static/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/static/ucenter/setting.js"></script>
 {{/block}}

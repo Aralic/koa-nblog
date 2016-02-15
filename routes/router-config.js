@@ -27,4 +27,8 @@ router.get('/api/register', api.register);
 router.post('/api/login', api.login);
 // 发布博客
 router.post('/api/postblog', api.postblog);
+// 上传头像
+router.post('/api/uploadavator', api.uploadavator);
+
+
 module.exports = router;

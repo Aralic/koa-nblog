@@ -9,6 +9,7 @@ var mongoose = require('mongoose');
 var session = require('koa-session-store');
 var mongooseStore = require('koa-session-mongoose');
 var xtpl = require('xtpl/lib/koa');
+var multer = require('koa-multer');
 
 //xtemplate模板渲染
 xtpl(app,{
@@ -30,6 +31,7 @@ app.use(function *(next){
 
 app.use(require('koa-static')(__dirname));
 
+app.use(multer({dest: './static/avatar'}));
 
 // session
 app.keys = ['some secret key'];  // needed for cookie-signing
@@ -40,6 +42,8 @@ app.use(session({
 // mount root
 app.use(require('./routes/router-config').routes());
 app.use(router.allowedMethods());
+
+
 
 app.on('error', function(err, ctx){
     log.error('server error', err, ctx);

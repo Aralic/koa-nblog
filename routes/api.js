@@ -1,6 +1,8 @@
 
 var userService = require('../service/user');
 var blogService = require('../service/blog');
+var formidable = require('formidable');
+var path = require('path');
 var _ = require('underscore');
 // 注册
 exports.register = function *register() {
@@ -82,6 +84,12 @@ exports.postblog = function *postblog() {
             errNo: 1
         };
     }
+
+};
+
+// 上传头像
+exports.uploadavator = function *() {
+
 
 };
 
