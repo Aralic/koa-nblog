@@ -15,7 +15,7 @@
 <section class="center-block" style="width: 50%">
     <div class="form-group">
         <label for="avatar">头像</label>
-        <input type="file" id="avatarInput" accept="image/*" class="form-control avatar-input" style="display: none;">
+        <input type="file" id="avatarInput" accept="image/*" class="form-control avatar-input" multiple style="display: none;">
         {{#if (avatar)}}
             <img src="/static/avator/{{avator}}" alt="avatar">
             <button class="btn btn-primary avatar-btn" id="updataAvatar">更换</button>

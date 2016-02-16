@@ -43,10 +43,12 @@ $('#login').click(function () {
           })
           .done(function(res) {
             if (!res.errNo) {
-                var result = location.search(/redirect=([^&]*)(&|$)/);
+                var result = location.search.match(/redirect=([^&]*)(&|$)/);
                 var redirect = '/';
-                //result && result[1] && redirect = result[1];
-                //window.location.href = redirect;
+                if (result && result[1]) {
+                    redirect = result[1];
+                }
+                window.location.href = redirect;
             } else {
               alert('登录失败!');
             }
