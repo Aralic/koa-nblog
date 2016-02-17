@@ -34,7 +34,7 @@
 <script>
     var userinfo = {
         email: '{{user.email}}',
-        github: '{{user.}}'
+        github: '{{user.github}}'
     }
 </script>
 <script src="/static/ucenter/setting.js"></script>
