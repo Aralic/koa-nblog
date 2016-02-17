@@ -3,6 +3,7 @@
  * 如果用户未登陆，则跳转到登陆页
  */
 var blogService = require('../service/blog');
+var userService = require('../service/user');
 
 exports.myblog = function *() {
     var author = this.session.username;
@@ -10,7 +11,7 @@ exports.myblog = function *() {
 
     if (author) {
         var articles = yield blogService.findBlog({pageId: pageId}, {author: author});
-        var pCount = yield blogService.findAllCount(author);
+        var pCount = yield blogService.findAllCount({author: author});
         yield this.render('myblog', {
             title: '我的博客',
             username: this.session.username ? this.session.username : null,
@@ -25,11 +26,22 @@ exports.myblog = function *() {
 };
 
 exports.setting = function *() {
-    if (this.session.username) {
-        yield this.render('setting', {
-            title: '我的设置',
-            username: this.session.username ? this.session.username : null
+    var username = this.session.username;
+    if (username) {
+        var userdata = yield userService.findUser({
+            username: username
         });
+        if (userdata) {
+            this.response.redirect('/register?redirect=ucenter/setting');
+        }
+        else {
+            yield this.render('setting', {
+                title: '我的设置',
+                user: userdata,
+                username: username
+            });
+        }
+
     }
     else {
         this.response.redirect('/register?redirect=ucenter/setting');

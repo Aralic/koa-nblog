@@ -1,7 +1,7 @@
 var router = require('koa-router')();
 var ucenter = require('./ucenter');
 var api = require('./api');
-var path = require('path');
+var auth = require('../service/auth');
 var koaBody = require('koa-body')({
     "multipart":true
 });
@@ -14,11 +14,13 @@ router.get('/index', require('./index'));
 router.get('/users', require('./users'));
 // 注册登录页
 router.get('/register', require('./register'));
+// 注销账号
+router.get('/loginout', require('./loginout'));
 // 用户个人中心
-router.get('/ucenter/myblog', ucenter.myblog);
-router.get('/ucenter/setting', ucenter.setting);
-router.get('/ucenter/addblog', ucenter.addblog);
-router.get('/ucenter/drafts', ucenter.drafts);
+router.get('/ucenter/myblog', auth, ucenter.myblog);
+router.get('/ucenter/setting', auth, ucenter.setting);
+router.get('/ucenter/addblog', auth, ucenter.addblog);
+router.get('/ucenter/drafts', auth, ucenter.drafts);
 // 博客详情页
 router.get('/article/:id', require('./article'));
 // 作者页
@@ -29,8 +31,13 @@ router.get('/api/register', api.register);
 // 登录接口
 router.post('/api/login', api.login);
 // 发布博客
-router.post('/api/postblog', api.postblog);
+router.post('/api/postblog', auth, api.postblog);
 // 上传头像
-router.post('/api/uploadavator', koaBody, api.uploadavator);
+router.post('/api/uploadavator', auth, koaBody, api.uploadavator);
+// 保存个人信息
+router.post('/api/savauserinfo', auth, api.savauserinfo);
+// 删除自己博客
+router.post('/api/deletemyblog', auth, api.deletemyblog);
+
 
 module.exports = router;

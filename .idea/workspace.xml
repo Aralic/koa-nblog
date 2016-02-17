@@ -2,882 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bc5dd2e-a0f9-4b09-b068-677c0ede992d" name="Default" comment="个人中心设置">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/.release.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/Readme_zh-cn.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/bin/jade.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/block-code.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/jade.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/doctypes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/filters-client.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/filters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/inline-tags.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/lexer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/attrs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/block-comment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/block.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/case.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/comment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/doctype.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/each.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/literal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/mixin-block.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/mixin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/tag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/nodes/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/runtime.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/.bin/cleancss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/.bin/mkdirp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/.bin/uglifyjs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/character-parser/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/character-parser/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/character-parser/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/character-parser/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/character-parser/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/bin/cleancss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/clean.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/colors/hex-name-shortener.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/colors/hsl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/colors/rgb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/imports/inliner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/break-up.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/can-override.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/clone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/compactable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/every-combination.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/has-inherit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/optimizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/override-compactor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/populate-components.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/remove-unused.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/restore-from-optimizing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/restore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/shorthand-compactor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/validator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/vendor-prefixes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/properties/wrap-for-optimizing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/advanced.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/clean-up.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/extractor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/is-special.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/merge-adjacent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/merge-media-queries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/merge-non-adjacent-by-body.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/merge-non-adjacent-by-selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/reduce-non-adjacent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/remove-duplicate-media-queries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/remove-duplicates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/reorderable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/restructure.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/simple.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/source-maps/track.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/stringifier/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/stringifier/one-time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/stringifier/simple.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/stringifier/source-maps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/text/comments-processor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/text/escape-store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/text/expressions-processor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/text/free-text-processor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/text/urls-processor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/tokenizer/extract-properties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/tokenizer/extract-selectors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/tokenizer/tokenize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/urls/rebase.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/urls/reduce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/urls/rewrite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/utils/clone-array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/utils/compatibility.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/utils/input-source-map-tracker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/utils/object.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/utils/quote-scanner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/utils/source-reader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/utils/source-tracker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/utils/split.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/commander/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/commander/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/commander/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/commander/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/commander/node_modules/graceful-readlink/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/commander/node_modules/graceful-readlink/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/commander/node_modules/graceful-readlink/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/commander/node_modules/graceful-readlink/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/commander/node_modules/graceful-readlink/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/commander/node_modules/graceful-readlink/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/commander/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/build/assert-shim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/build/mini-require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/build/prefix-source-map.jsm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/build/prefix-utils.jsm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/build/suffix-browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/build/suffix-source-map.jsm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/build/suffix-utils.jsm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/build/test-prefix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/build/test-suffix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/lib/source-map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/lib/source-map/array-set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/lib/source-map/base64-vlq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/lib/source-map/base64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/lib/source-map/binary-search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/lib/source-map/mapping-list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/lib/source-map/quick-sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/lib/source-map/source-map-consumer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/lib/source-map/source-map-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/lib/source-map/source-node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/lib/source-map/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/node_modules/amdefine/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/node_modules/amdefine/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/node_modules/amdefine/amdefine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/node_modules/amdefine/intercept.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/node_modules/amdefine/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/.bin/acorn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/.tern-project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/bin/acorn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/bin/build-acorn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/bin/generate-identifier-regex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/bin/update_authors.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/dist/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/dist/acorn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/dist/acorn_loose.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/dist/walk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/bin/acorn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/expression.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/identifier.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/location.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/locutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/loose/acorn_loose.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/loose/expression.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/loose/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/loose/parseutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/loose/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/loose/statement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/loose/tokenize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/lval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/parseutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/statement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/tokencontext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/tokenize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/tokentype.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/walk/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/is-promise/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/is-promise/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/is-promise/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/is-promise/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/is-promise/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/is-promise/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/lib/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/lib/done.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/lib/es6-extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/lib/node-extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/node_modules/asap/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/node_modules/asap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/node_modules/asap/asap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/node_modules/asap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/polyfill-done.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/node_modules/promise/polyfill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/jstransformer/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/bin/cmd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/bin/usage.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/examples/pow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/example/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/test/dash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/test/default_bool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/test/dotted.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/test/long.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/test/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/test/parse_modified.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/test/short.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/node_modules/minimist/test/whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/chmod.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/clobber.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/mkdirp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/opts_fs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/opts_fs_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/perm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/perm_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/race.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/rel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/return_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/root.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/umask.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/mkdirp/test/umask_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/history.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/lib/shared.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/lib/transformers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/.bin/uglifyjs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/benchmark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/css/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/promise/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/promise/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/promise/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/promise/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/bin/uglifyjs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/lib/ast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/lib/compress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/lib/mozilla-ast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/lib/output.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/lib/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/lib/scope.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/lib/sourcemap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/lib/transform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/bool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/boolean_double.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/boolean_single.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/default_hash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/default_singles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/divide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/line_count.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/line_count_options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/line_count_wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/nonopt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/reflect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/short.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/usage-options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/example/xup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/example/center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/example/meat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/test/break.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/test/idleness.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/node_modules/wordwrap/test/wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/test/_.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/test/_/argv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/test/_/bin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/test/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/optimist/test/usage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/Makefile.dryice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/assert-shim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/mini-require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/prefix-source-map.jsm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/prefix-utils.jsm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/suffix-browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/suffix-source-map.jsm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/suffix-utils.jsm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/test-prefix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/build/test-suffix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/lib/source-map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/lib/source-map/array-set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/lib/source-map/base64-vlq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/lib/source-map/base64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/lib/source-map/binary-search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/lib/source-map/mapping-list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-consumer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/lib/source-map/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/amdefine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/intercept.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/run-tests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/source-map/test-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/source-map/test-array-set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/source-map/test-base64-vlq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/source-map/test-base64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/source-map/test-binary-search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/source-map/test-dog-fooding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-consumer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/source-map/test-util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/source-map/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/arrays.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/blocks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/conditionals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/dead-code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/debugger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/drop-unused.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/issue-105.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/issue-12.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/issue-22.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/issue-44.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/issue-59.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/labels.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/loops.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/properties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/sequences.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/compress/switch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/test/run-tests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/tools/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/bin/extract-props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/bin/uglifyjs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/lib/ast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/lib/compress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/lib/mozilla-ast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/lib/output.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/lib/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/lib/propmangle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/lib/scope.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/lib/sourcemap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/lib/transform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/async/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/async/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/async/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/async/lib/async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/async/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/dist/source-map.debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/dist/source-map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/dist/source-map.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/dist/source-map.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/lib/array-set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/lib/base64-vlq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/lib/base64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/lib/binary-search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/lib/mapping-list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/lib/quick-sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/lib/source-map-consumer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/lib/source-map-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/lib/source-node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/lib/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/source-map/source-map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/uglify-to-browserify/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/uglify-to-browserify/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/uglify-to-browserify/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/uglify-to-browserify/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/uglify-to-browserify/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/uglify-to-browserify/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/uglify-to-browserify/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/completion.sh.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/lib/completion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/lib/parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/lib/usage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/lib/validation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/camelcase/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/camelcase/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/camelcase/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/camelcase/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/.coveralls.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/.zuul.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/test/basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/kind-of/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/longest/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/longest/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/longest/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/longest/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/repeat-string/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/repeat-string/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/repeat-string/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/node_modules/repeat-string/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/align-text/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/lazy-cache/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/lazy-cache/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/lazy-cache/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/node_modules/lazy-cache/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/center-align/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/.zuul.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/node_modules/is-buffer/test/basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/kind-of/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/longest/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/longest/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/longest/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/longest/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/repeat-string/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/repeat-string/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/repeat-string/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/node_modules/repeat-string/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/node_modules/align-text/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/right-align/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/wordwrap/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/wordwrap/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/wordwrap/example/center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/wordwrap/example/meat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/wordwrap/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/wordwrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/wordwrap/test/break.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/wordwrap/test/idleness.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/node_modules/wordwrap/test/wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/test/cliui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/decamelize/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/decamelize/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/decamelize/node_modules/escape-string-regexp/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/decamelize/node_modules/escape-string-regexp/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/decamelize/node_modules/escape-string-regexp/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/decamelize/node_modules/escape-string-regexp/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/decamelize/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/decamelize/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/window-size/LICENSE-MIT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/window-size/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/window-size/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/window-size/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/tools/domprops.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/tools/exports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/tools/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/tools/props.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/void-elements/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/void-elements/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/void-elements/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/void-elements/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/void-elements/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/void-elements/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/void-elements/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/void-elements/pre-publish.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/void-elements/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/.bin/acorn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/.bin/acorn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/.tern-project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/bin/acorn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/bin/build-acorn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/bin/generate-identifier-regex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/bin/update_authors.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/dist/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/dist/acorn_loose.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/dist/walk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/bin/acorn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/expression.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/identifier.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/location.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/locutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/loose/acorn_loose.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/loose/expression.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/loose/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/loose/parseutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/loose/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/loose/statement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/loose/tokenize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/lval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/parseutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/statement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/tokencontext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/tokenize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/tokentype.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/walk/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/src/whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/.tern-project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/bin/acorn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/bin/build-acorn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/bin/generate-identifier-regex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/bin/prepublish.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/bin/update_authors.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/bin/without_eval" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/dist/.keep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/dist/acorn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/dist/acorn_csp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/dist/acorn_loose.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/dist/walk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/expression.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/identifier.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/location.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/loose/acorn_loose.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/loose/expression.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/loose/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/loose/parseutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/loose/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/loose/statement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/loose/tokenize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/lval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/parseutil.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/statement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/tokencontext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/tokenize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/tokentype.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/walk/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/src/whitespace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/release.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jade/runtime.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/deps/encoding/encoding-indexes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/deps/encoding/encoding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/lib/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/lib/types/multipart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/lib/types/urlencoded.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/bench/dicer-bench-multipart-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/bench/formidable-bench-multipart-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/bench/multipartser-bench-multipart-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/bench/multiparty-bench-multipart-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/bench/parted-bench-multipart-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/bench/parted-multipart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/lib/Dicer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/lib/HeaderParser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/lib/PartStream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/node_modules/streamsearch/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/node_modules/streamsearch/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/node_modules/streamsearch/lib/sbmh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/node_modules/streamsearch/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part1.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part2.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part3.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part4.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part5.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part6.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-noend/part7.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-wrongboundary/original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-wrongboundary/preamble" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many-wrongboundary/preamble.error" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part1.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part2.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part3.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part4.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part5.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part6.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/many/part7.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/nested-full/original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/nested-full/part1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/nested-full/part1.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/nested-full/part2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/nested-full/part2.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/nested-full/preamble.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/nested/original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/nested/part1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/nested/part1.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/nested/part2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/fixtures/nested/part2.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/test-endfinish.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/test-headerparser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/test-multipart-extra-trailer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/test-multipart-nolisteners.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/test-multipart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/dicer/test/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/duplex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/float.patch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/lib/_stream_readable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/lib/_stream_transform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/lib/_stream_writable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/core-util-is/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/core-util-is/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/core-util-is/float.patch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/core-util-is/lib/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/core-util-is/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/core-util-is/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/inherits/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/inherits/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/inherits/inherits.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/inherits/inherits_browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/inherits/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/inherits/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/isarray/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/isarray/build/build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/isarray/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/isarray/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/isarray/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/string_decoder/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/string_decoder/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/string_decoder/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/string_decoder/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/node_modules/string_decoder/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/passthrough.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/readable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/transform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/node_modules/readable-stream/writable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/test/test-types-multipart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/test/test-types-urlencoded.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/test/test-utils-decoder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/test/test-utils-parse-params.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/busboy/test/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/examples/pow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/chmod.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/clobber.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/mkdirp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/perm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/perm_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/race.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/rel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/return_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/root.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/umask.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/mkdirp/test/umask_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/.jshintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/lib/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/lib/stringify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/test/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/qs/test/stringify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/media-typer/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/media-typer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/media-typer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/media-typer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/media-typer/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/mime-types/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/mime-types/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/mime-types/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/mime-types/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/HISTORY.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/db.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/node_modules/mime-types/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/node_modules/type-is/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/multer/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/node_modules/any-promise/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/node_modules/any-promise/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/node_modules/any-promise/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/node_modules/any-promise/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/node_modules/any-promise/implementation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/node_modules/any-promise/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/node_modules/any-promise/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/node_modules/any-promise/register-shim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/node_modules/any-promise/register.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/node_modules/thenify/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/koa-multer/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/avatar/aa.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/loginout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/auth.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/avatar/211455627276000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/avatar/461455627052000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/avatar/571455627299000.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/avatar/681455627011000.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/index.js" afterPath="$PROJECT_DIR$/model/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/User.js" afterPath="$PROJECT_DIR$/model/User.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.js" afterPath="$PROJECT_DIR$/routes/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/author.js" afterPath="$PROJECT_DIR$/routes/author.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/router-config.js" afterPath="$PROJECT_DIR$/routes/router-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/register/register.js" afterPath="$PROJECT_DIR$/static/register/register.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/ucenter.js" afterPath="$PROJECT_DIR$/routes/ucenter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/blog.js" afterPath="$PROJECT_DIR$/service/blog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/user.js" afterPath="$PROJECT_DIR$/service/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/common/pager.js" afterPath="$PROJECT_DIR$/static/common/pager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/ucenter/myblog.js" afterPath="$PROJECT_DIR$/static/ucenter/myblog.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/ucenter/setting.js" afterPath="$PROJECT_DIR$/static/ucenter/setting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.xtpl" afterPath="$PROJECT_DIR$/views/header.xtpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/myblog.xtpl" afterPath="$PROJECT_DIR$/views/myblog.xtpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/setting.xtpl" afterPath="$PROJECT_DIR$/views/setting.xtpl" />
     </list>
     <ignored path="helloworld.iws" />
@@ -899,49 +45,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="129" column="40" selection-start-line="129" selection-start-column="40" selection-end-line="129" selection-end-column="40" />
+              <folding>
+                <element signature="e#345#1051#0" expanded="false" />
+                <element signature="e#1463#1936#0" expanded="false" />
+                <element signature="e#1983#2877#0" expanded="false" />
+                <element signature="e#2926#3221#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/blog.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="author.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/author.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.xtpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/header.xtpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.3">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#header#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/common/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.4">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="router-config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/router-config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="58" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="58" />
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6907021">
-              <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
-              <folding>
-                <element signature="e#262#968#0" expanded="false" />
-                <element signature="e#1010#1382#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setting.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/ucenter/setting.js">
+      <file leaf-file-name="loginout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/loginout.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setting.xtpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/setting.xtpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0333333">
-              <caret line="17" column="103" selection-start-line="17" selection-start-column="103" selection-end-line="17" selection-end-column="103" />
-              <folding>
-                <element signature="n#style#0;n#aside#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -950,7 +136,17 @@
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pager.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/common/pager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44554454">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -979,45 +175,50 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routes/register.js" />
         <option value="$PROJECT_DIR$/views/ucenter.xtpl.html" />
-        <option value="$PROJECT_DIR$/model/User.js" />
-        <option value="$PROJECT_DIR$/service/user.js" />
         <option value="$PROJECT_DIR$/model/Blog.js" />
         <option value="$PROJECT_DIR$/node_modules/xtpl/lib/xtpl.js" />
         <option value="$PROJECT_DIR$/views/register.xtpl" />
         <option value="$PROJECT_DIR$/views/base.xtpl" />
-        <option value="$PROJECT_DIR$/static/common/base.css" />
         <option value="$PROJECT_DIR$/views/article.xtpl" />
         <option value="$PROJECT_DIR$/routes/article.js" />
         <option value="$PROJECT_DIR$/views/index.xtpl" />
-        <option value="$PROJECT_DIR$/static/common/pager.js" />
         <option value="$PROJECT_DIR$/views/ucenter.xtpl" />
         <option value="$PROJECT_DIR$/views/ucenter/addblog.xtpl" />
         <option value="$PROJECT_DIR$/views/ucenter/myblog.xtpl" />
         <option value="$PROJECT_DIR$/views/ucenter/drafts.xtpl" />
         <option value="$PROJECT_DIR$/node_modules/xtpl/lib/koa.js" />
         <option value="$PROJECT_DIR$/views/ucenter/setting.xtpl" />
-        <option value="$PROJECT_DIR$/views/header.xtpl" />
         <option value="$PROJECT_DIR$/views/drafts.xtpl" />
         <option value="$PROJECT_DIR$/views/addblog.xtpl" />
         <option value="$PROJECT_DIR$/test/mookajax.js" />
         <option value="$PROJECT_DIR$/static/ucenter/postblog.js" />
-        <option value="$PROJECT_DIR$/views/myblog.xtpl" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/author.xtpl" />
-        <option value="$PROJECT_DIR$/routes/author.js" />
-        <option value="$PROJECT_DIR$/service/blog.js" />
         <option value="$PROJECT_DIR$/static/author/author.js" />
-        <option value="$PROJECT_DIR$/routes/ucenter.js" />
-        <option value="$PROJECT_DIR$/static/ucenter/myblog.js" />
         <option value="$PROJECT_DIR$/static/index/index.js" />
         <option value="$PROJECT_DIR$/static/ucenter/setting,css.css" />
         <option value="$PROJECT_DIR$/model/index.js" />
         <option value="$PROJECT_DIR$/static/register/register.js" />
-        <option value="$PROJECT_DIR$/routes/router-config.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/views/setting.xtpl" />
+        <option value="$PROJECT_DIR$/service/auth.js" />
+        <option value="$PROJECT_DIR$/service/user.js" />
+        <option value="$PROJECT_DIR$/model/User.js" />
+        <option value="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.min.js" />
+        <option value="$PROJECT_DIR$/static/bower_components/bootstrap/dist/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/static/ucenter/setting.js" />
+        <option value="$PROJECT_DIR$/views/setting.xtpl" />
+        <option value="$PROJECT_DIR$/views/myblog.xtpl" />
+        <option value="$PROJECT_DIR$/static/ucenter/myblog.js" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/routes/ucenter.js" />
+        <option value="$PROJECT_DIR$/routes/author.js" />
         <option value="$PROJECT_DIR$/routes/api.js" />
+        <option value="$PROJECT_DIR$/service/blog.js" />
+        <option value="$PROJECT_DIR$/views/header.xtpl" />
+        <option value="$PROJECT_DIR$/static/common/base.css" />
+        <option value="$PROJECT_DIR$/routes/router-config.js" />
+        <option value="$PROJECT_DIR$/routes/loginout.js" />
+        <option value="$PROJECT_DIR$/static/common/pager.js" />
       </list>
     </option>
   </component>
@@ -1075,8 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1108,24 +307,6 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ucenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helloworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koa-nblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1141,18 +322,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="avatar" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="E:/offline" />
+    <property name="last_opened_file_path" value="E:/offline/ResStatic/ResFlightOnline" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptPreferStrict" value="false" />
@@ -1248,11 +431,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3803132" sideWeight="0.50361884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33072627" sideWeight="0.49758744" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37877095" sideWeight="0.4963812" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2905028" sideWeight="0.4963812" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1299,39 +482,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="98" />
+      <option name="time" value="109" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4486607">
-          <caret line="19" column="16" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/koa-onerror/node_modules/swig/node_modules/uglify-js/node_modules/yargs/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3492908">
-          <caret line="152" column="5" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.053521127">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/xtpl/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1346,31 +501,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/common/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/article.xtpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3374778">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2893401">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/common/pager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5620567">
-          <caret line="108" column="31" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1399,20 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25454545">
           <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.xtpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46666667">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1451,20 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/author.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1479,45 +585,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/ucenter/myblog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.xtpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5281437">
           <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/author.xtpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6287425">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34450868">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/ucenter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29132947">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/myblog.xtpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5976048">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1541,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33269963">
           <caret line="235" column="0" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1549,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14549653">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1557,23 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.039923955">
           <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27946767">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/register/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28136882">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1581,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1589,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="43" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1597,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.7157893">
           <caret line="28" column="46" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1605,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04233871">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1613,14 +661,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1977186">
           <caret line="30" column="18" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="18" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/register/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7210626">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55787474">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/article.xtpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4225352">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/author.xtpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.5">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3884393">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bower_components/bootstrap/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42754492">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9498208">
+          <caret line="5" column="18851" selection-start-line="5" selection-start-column="18851" selection-end-line="5" selection-end-column="18851" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bower_components/bootstrap/dist/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9498208">
+          <caret line="6" column="27674" selection-start-line="6" selection-start-column="27674" selection-end-line="6" selection-end-column="27674" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/ucenter/setting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5654649">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/setting.xtpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0333333">
-          <caret line="17" column="103" selection-start-line="17" selection-start-column="103" selection-end-line="17" selection-end-column="103" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#aside#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
@@ -1629,48 +746,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/router-config.js">
+    <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="58" />
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/avatar/681455627011000.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/static/ucenter/myblog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79696393">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="31" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/avatar/461455627052000.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/views/myblog.xtpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/ucenter/setting.js">
+    <entry file="file://$PROJECT_DIR$/routes/ucenter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/author.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6907021">
-          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="40" selection-start-line="129" selection-start-column="40" selection-end-line="129" selection-end-column="40" />
           <folding>
-            <element signature="e#262#968#0" expanded="false" />
-            <element signature="e#1010#1382#0" expanded="false" />
+            <element signature="e#345#1051#0" expanded="false" />
+            <element signature="e#1463#1936#0" expanded="false" />
+            <element signature="e#1983#2877#0" expanded="false" />
+            <element signature="e#2926#3221#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.xtpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/common/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/router-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20792079">
+          <caret line="6" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/loginout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/common/pager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44554454">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

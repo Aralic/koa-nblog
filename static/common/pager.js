@@ -28,10 +28,7 @@ Pager.prototype.createHtml = function () {
     var pMaxCount = this.args.pMaxCount ? this.args.pMaxCount : 7;
     pMaxCount = pMaxCount > pagerTotalCount ? pagerTotalCount : pMaxCount;
     var str = '';
-    if (curIndex === 1) {
-        str += '<li><a data-page="'+(curIndex-1)+'" class="hide prev-page">上一页</a></li>';
-    }
-    else {
+    if (pagerTotalCount > 0 && curIndex !== 1) {
         str += '<li><a data-page="'+(curIndex-1)+'" class="prev-page">上一页</a></li>';
     }
     // active 左中右
@@ -73,10 +70,8 @@ Pager.prototype.createHtml = function () {
         }
     }
 
-    if (curIndex === pagerTotalCount) {
-        str += '<li><a data-page="'+(curIndex+1)+'" class="hide next-page">下一页</a></li>';
-    }
-    else {
+
+    if (pagerTotalCount > 0 && curIndex !== pagerTotalCount) {
         str += '<li><a data-page="'+(curIndex+1)+'" class="next-page">下一页</a></li>';
     }
 

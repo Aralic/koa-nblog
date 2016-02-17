@@ -5,7 +5,7 @@ module.exports = function *() {
     var pageId = this.request.query.page || 1;
 
     var articles = yield blogService.findBlog({pageId: pageId}, {author: author});
-    var pCount = yield blogService.findAllCount(author);
+    var pCount = yield blogService.findAllCount({author: author});
     yield this.render('author', {
         title: '个人详情页',
         username: this.session.username ? this.session.username : null,

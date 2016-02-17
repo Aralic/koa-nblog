@@ -29,12 +29,19 @@ exports.findOneBlog = function *(articleid) {
     return yield Blog.findOne({'_id': articleid}).exec();
 };
 
-exports.findAllCount = function *(author) {
-    if (author) {
-        return yield Blog.find({'author': author}).count().exec();
-    }
-    else {
-        return yield Blog.find({}).count().exec();
-    }
+/**
+ * 找到所有条数
+ * @param author
+ * @returns {*}
+ */
+exports.findAllCount = function *(select) {
+    select = select || {};
+    return yield Blog.find(select).count().exec();
 };
 
+/**
+ * 删除博客
+ */
+exports.deleteBlog = function *(conditions) {
+    return yield Blog.findOneAndRemove(conditions).exec();
+};

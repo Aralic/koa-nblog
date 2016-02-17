@@ -10,9 +10,19 @@
 <header class="top-header text-right">
     <a href="/">首页</a>
     {{#if(username)}}
-    <a href="/ucenter/myblog">{{username}}</a>
+        <li class="dropdown" style="display: inline-block;">
+            <a id="dropdown" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            {{username}}
+            <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown">
+                <li><a href="/ucenter/setting">个人中心</a></li>
+                <li><a href="/loginout">退出</a></li>
+            </ul>
+        </li>
+        <a href="/ucenter/myblog">我的博客</a>
     {{else}}
-    <a href="/register">登录</a>
-    <a href="/register">注册</a>
+        <a href="/register">登录</a>
+        <a href="/register">注册</a>
     {{/if}}
 </header>
