@@ -9,11 +9,18 @@ var mongoose = require('mongoose');
 var session = require('koa-session-store');
 var mongooseStore = require('koa-session-mongoose');
 var xtpl = require('xtpl/lib/koa');
-
+var xtemplate = require('xtemplate');
 //xtemplate模板渲染
 xtpl(app,{
     //配置模板目录，指向工程的view目录
     views: __dirname + '/views'
+});
+
+// 拓展模板命令
+xtemplate.addCommand('formateTime',function(scope, option){
+    var time = option.params[0];
+    var result = time.getFullYear() + '-' + (time.getMonth() + 1)+'-'+time.getDate() +' '+ time.getHours()+':'+time.getMinutes();
+    return result;
 });
 
 // global middlewares
