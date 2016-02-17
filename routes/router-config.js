@@ -27,7 +27,7 @@ router.get('/article/:id', require('./article'));
 router.get('/author/:author', require('./author'));
 
 // 注册接口
-router.get('/api/register', api.register);
+router.post('/api/register', api.register);
 // 登录接口
 router.post('/api/login', api.login);
 // 发布博客

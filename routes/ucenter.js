@@ -31,7 +31,7 @@ exports.setting = function *() {
         var userdata = yield userService.findUser({
             username: username
         });
-        if (userdata) {
+        if (!userdata) {
             this.response.redirect('/register?redirect=ucenter/setting');
         }
         else {
