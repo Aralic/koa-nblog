@@ -1,17 +1,21 @@
+
 // 注册
-$('#register').click(function() {
+$('#register').on('click', '.register-btn', function() {
   var _user = {
-    username: $('#username').val(),
-    password: $('#password').val()
+    username: $('#register .username').val(),
+    password: $('#register .password').val(),
+      passwordrepeat: $('#register .password-repeat').val(),
+      email: $('#register .email').val()
   };
 
-  if (_user.username && _user.password) {
+  if (_user.password === _user.passwordrepeat && _user.username && _user.password && _user.email) {
     $.ajax({
           url: '/api/register',
-          type: 'get',
+          type: 'post',
           data: {
-            username: $('#username').val(),
-            password: $('#password').val()
+            username: _user.username,
+            password: _user.password,
+              email: _user.email
           }
         })
         .done(function(res) {
@@ -29,11 +33,11 @@ $('#register').click(function() {
 });
 
 // 登录
-$('#login').click(function () {
+$('#login').on('click', '.login-btn', function () {
     var _user = {
-        username: $('#username').val(),
-        password: $('#password').val()
-    }
+        username: $('#login .username').val(),
+        password: $('#login .password').val()
+    };
 
     if (_user.username && _user.password) {
       $.ajax({
@@ -57,5 +61,25 @@ $('#login').click(function () {
     else {
         alert('帐号密码不得为空');
     }
+});
 
-})
+$('.wrap').on('click', '[rel]', function () {
+    var action = $(this).attr('rel');
+    var $box = $('.box');
+    var width = $box.width();
+    if (action === 'register') {
+        $box.animate({
+            left: -width/2
+        }, 400);
+    }
+    else {
+        $box.animate({
+            left: 0
+        }, 400);
+    }
+});
+
+var type = location.search.match(/type=(\w+)/);
+if (type && type[1] === 'register') {
+    $('[rel=register]').trigger('click');
+}

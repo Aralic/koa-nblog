@@ -22,7 +22,7 @@
         </li>
         <a href="/ucenter/myblog">我的博客</a>
     {{else}}
-        <a href="/register">登录</a>
-        <a href="/register">注册</a>
+        <a href="/login">登录</a>
+        <a href="/login?type=register">注册</a>
     {{/if}}
 </header>

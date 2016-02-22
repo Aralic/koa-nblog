@@ -9,7 +9,7 @@
         <p>{{article.content}}</p>
         <blockquote class="blockquote-reverse">
             <span><a href="/author/{{article.author}}">{{article.author}}</a>  发布于 </span>
-            <em>{{formateTime(article.updatadate)}}</em>
+            <em>{{formateTime(article.updated_at)}}</em>
         </blockquote>
     </li>
 </section>

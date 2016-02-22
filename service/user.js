@@ -14,6 +14,6 @@ exports.validateUsername = function *(username) {
     return yield User.findOne({username: username}).exec();
 };
 
-exports.updateUser = function *(oldData, newData) {
-    return yield User.update(oldData, {$set: newData}).exec();
+exports.updateUser = function *(query, update) {
+    return yield User.update(query, {$set: update}).exec();
 };

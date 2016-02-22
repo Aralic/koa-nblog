@@ -13,7 +13,7 @@ router.get('/index', require('./index'));
 // 用户中心
 router.get('/users', require('./users'));
 // 注册登录页
-router.get('/register', require('./register'));
+router.get('/login', require('./login'));
 // 注销账号
 router.get('/loginout', require('./loginout'));
 // 用户个人中心
@@ -25,6 +25,8 @@ router.get('/ucenter/drafts', auth, ucenter.drafts);
 router.get('/article/:id', require('./article'));
 // 作者页
 router.get('/author/:author', require('./author'));
+// 更新博客页
+router.get('/editblog/:id', auth, require('./editblog'));
 
 // 注册接口
 router.post('/api/register', api.register);
@@ -38,6 +40,8 @@ router.post('/api/uploadavator', auth, koaBody, api.uploadavator);
 router.post('/api/savauserinfo', auth, api.savauserinfo);
 // 删除自己博客
 router.post('/api/deletemyblog', auth, api.deletemyblog);
+// 更新自己博客
+router.post('/api/updateblog', auth, api.updateblog);
 
 
 module.exports = router;

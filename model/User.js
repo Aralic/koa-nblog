@@ -4,7 +4,10 @@ var UserSchema = new mongoose.Schema({
          type: String,
          unique: true
      },
-     'password': String,
+     'password': {
+         type: String,
+         require: true
+     },
      'avatar': {
           type: String,
           default: 'default_avatar.png'
@@ -18,7 +21,8 @@ var UserSchema = new mongoose.Schema({
         default: ''
     },
     'registeremail': {
-        type: String
+        type: String,
+        require: true
     }
 });
 

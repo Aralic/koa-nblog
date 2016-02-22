@@ -10,12 +10,13 @@ var acceptAvatarType = ['jpg', 'jpeg', 'png'];
 
 // 注册
 exports.register = function *register() {
-    var _user = this.request.query;
+    var _user = this.request.body;
     var result = yield userService.validateUsername(_user.username);
     if (!result) {
         var addResult = yield userService.insertUser({
             username: _user.username,
-            password: _user.password
+            password: _user.password,
+            registeremail: _user.email
         });
         if (addResult) {
             this.session.username = _user.username;
@@ -139,4 +140,24 @@ exports.deletemyblog = function *() {
         this.body = config.res[1];
     }
 
+};
+
+// 更新个人博客
+exports.updateblog = function *() {
+    var body = this.request.body;
+    var username = this.session.username;
+    var result = yield blogService.updateblog({
+        author: username,
+        _id: body.id
+    }, {
+        title: body.title,
+        content: body.content
+    });
+
+    if (result) {
+        this.body = config.res[0];
+    }
+    else {
+        this.body = config.res[1];
+    }
 };

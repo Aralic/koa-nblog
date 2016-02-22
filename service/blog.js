@@ -22,11 +22,12 @@ exports.findBlog = function *(params, select) {
 
 /**
  * 根据ID读取博客数据
- * @param articleid 博客ID
+ * @param
  * @returns {*}
  */
-exports.findOneBlog = function *(articleid) {
-    return yield Blog.findOne({'_id': articleid}).exec();
+exports.findOneBlog = function *(query) {
+    query = query || {};
+    return yield Blog.findOne(query).exec();
 };
 
 /**
@@ -44,4 +45,11 @@ exports.findAllCount = function *(select) {
  */
 exports.deleteBlog = function *(conditions) {
     return yield Blog.findOneAndRemove(conditions).exec();
+};
+
+/**
+ * 更新博客
+ */
+exports.updateblog = function *(query, update) {
+    return yield Blog.update(query, {$set: update}).exec();
 };

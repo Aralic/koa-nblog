@@ -11,7 +11,7 @@
                 <p>{{content}}</p>
                 <blockquote class="blockquote-reverse">
                     <span><a href="/author/{{author}}">{{author}}</a>  发布于 </span>
-                    <em>{{formateTime(updatadate)}}</em>
+                    <em>{{formateTime(updated_at)}}</em>
                 </blockquote>
             </li>
         {{/each}}
