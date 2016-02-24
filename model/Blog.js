@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
 var BlogSchema = new mongoose.Schema({
     'title': String,
     'content': String,

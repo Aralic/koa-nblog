@@ -1,7 +1,6 @@
 var User = require('../model/index').User;
 
 exports.insertUser = function *(userToInsert) {
-
     return yield User.create(userToInsert);
 };
 

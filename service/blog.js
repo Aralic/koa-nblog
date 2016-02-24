@@ -1,10 +1,9 @@
 var Blog = require('../model/index').Blog;
-
+var User = require('../model/index').User;
 exports.insertBlog = function *(BlogToInsert) {
-
-    return yield Blog.create(BlogToInsert);
+    var blog = yield Blog.create(BlogToInsert);
+    return yield User.update({username: BlogToInsert.author}, {$push: {blogs: blog._id}}, {safe: true, upsert: true, new : true});
 };
-
 /**
  * 倒序读取博客数据
  * @param pageId 分页ID 从1开始
